@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e8f11b-8080-4a77-83da-8a14674e4e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/DeadLockCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/SemaphoreDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,46 +62,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="12" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="12" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="985" />
+          <entry key="java" value="1436" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="985" />
+          <entry key="JAVA" value="1436" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockInt.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1334">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="957">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/DeadLockCheck.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/SemaphoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            <state relative-caret-position="224">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,6 +160,8 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/DeadLockCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockInt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/SemaphoreDemo.java" />
       </list>
     </option>
   </component>
@@ -205,10 +208,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="139" />
-    <option name="width" value="1716" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="66" />
+    <option name="y" value="37" />
+    <option name="width" value="1612" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,14 +245,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -261,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545897291092" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545913724372" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -282,13 +278,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReentrantLockInt">
-    <configuration name="MapJdk8Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdk.MapJdk8Test" />
-      <module name="thread-exercise" />
+  <component name="RunManager" selected="Application.SemaphoreDemo">
+    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.ConditionDemo" />
+      <module name="exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdk.*" />
+          <option name="PATTERN" value="concurrent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,6 +318,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.SemaphoreDemo" />
+      <module name="exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdk.StreamDetailDemo" />
       <module name="thread-exercise" />
@@ -335,33 +344,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdk.StreamTest" />
-      <module name="thread-exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StreamTest" />
-      <item itemvalue="Application.MapJdk8Test" />
       <item itemvalue="Application.StreamDetailDemo" />
       <item itemvalue="Application.ReentrantLockDemo1" />
       <item itemvalue="Application.ReentrantLockInt" />
+      <item itemvalue="Application.ConditionDemo" />
+      <item itemvalue="Application.SemaphoreDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="Application.ConditionDemo" />
         <item itemvalue="Application.ReentrantLockInt" />
         <item itemvalue="Application.ReentrantLockDemo1" />
         <item itemvalue="Application.StreamDetailDemo" />
-        <item itemvalue="Application.MapJdk8Test" />
-        <item itemvalue="Application.StreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -386,12 +382,20 @@
       <workItem from="1545038307941" duration="392000" />
       <workItem from="1545099818271" duration="3730000" />
       <workItem from="1545706945581" duration="1239000" />
-      <workItem from="1545873435849" duration="5459000" />
+      <workItem from="1545873435849" duration="7449000" />
     </task>
+    <task id="LOCAL-00001" summary="代码更新">
+      <created>1545897367760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545897367760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44989000" />
+    <option name="totallyTimeSpent" value="46979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,9 +407,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="87" width="1612" height="1018" extended-state="0" />
+    <frame x="66" y="37" width="1612" height="1018" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21907216" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21907216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -415,7 +420,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42468855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13137034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,7 +453,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46319366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42468855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,6 +481,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/User.java" />
@@ -641,13 +650,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="377">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
-            <element signature="e#330#331#0" expanded="true" />
             <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
