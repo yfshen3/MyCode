@@ -14,8 +14,9 @@ public class ConditionDemo implements Runnable {
     public void run() {
         try {
             lock.lock();
+            System.out.println(Thread.currentThread().getName() + "waiting");
             condition.await();
-            System.out.println("Thread is going on");
+            System.out.println(Thread.currentThread().getName() + "Thread is going on");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -29,8 +30,17 @@ public class ConditionDemo implements Runnable {
         t.start();
         Thread.sleep(2000);
         // 通知线程t继续执行
-        lock.lock();
-        condition.signal();
-        lock.unlock();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    lock.lock();
+                    System.out.println(Thread.currentThread().getName());
+                    condition.signal();
+                } finally {
+                    lock.unlock();
+                }
+            }
+        }).start();
     }
 }

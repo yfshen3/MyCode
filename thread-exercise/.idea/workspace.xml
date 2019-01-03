@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e8f11b-8080-4a77-83da-8a14674e4e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrent/LockSupportDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,26 +64,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="25" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="25" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="2865" />
+          <entry key="java" value="3465" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2865" />
+          <entry key="JAVA" value="3465" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -93,11 +91,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="286">
+              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,14 +127,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CyclicBarrierDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+            <state relative-caret-position="137">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/LockSupportDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -189,11 +196,12 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockDemo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/DeadLockCheck.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockInt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/SemaphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/ReadWriteLockDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/LockSupportDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java" />
       </list>
     </option>
   </component>
@@ -240,11 +248,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="250" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="201" />
     <option name="y" value="84" />
     <option name="width" value="1612" />
-    <option name="height" value="1018" />
+    <option name="height" value="964" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -297,7 +305,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546486397098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546512883016" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -318,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+  <component name="RunManager" selected="Application.ConditionDemo">
     <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="concurrent.ConditionDemo" />
       <module name="exercise" />
@@ -358,8 +366,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.ReentrantLockInt" />
+    <configuration name="LockSupportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.LockSupportDemo" />
       <module name="exercise" />
       <extension name="coverage">
         <pattern>
@@ -385,19 +393,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReentrantLockInt" />
       <item itemvalue="Application.ConditionDemo" />
       <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.CyclicBarrierDemo" />
+      <item itemvalue="Application.LockSupportDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConditionDemo" />
+        <item itemvalue="Application.LockSupportDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.ConditionDemo" />
-        <item itemvalue="Application.ReentrantLockInt" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +431,7 @@
       <workItem from="1545099818271" duration="3730000" />
       <workItem from="1545706945581" duration="1239000" />
       <workItem from="1545873435849" duration="7488000" />
-      <workItem from="1546476086606" duration="5590000" />
+      <workItem from="1546476086606" duration="10682000" />
     </task>
     <task id="LOCAL-00001" summary="代码更新">
       <created>1545897367760</created>
@@ -439,11 +447,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545914000757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="代码更新">
+      <created>1546486409225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546486409225</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52608000" />
+    <option name="totallyTimeSpent" value="57700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,10 +470,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="627" y="21" width="1612" height="1018" extended-state="0" />
-    <editor active="true" />
+    <frame x="201" y="84" width="1612" height="964" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21907216" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21907216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -468,8 +482,8 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42582107" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36670688" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39927623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3280543" />
@@ -501,7 +515,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36693093" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42582107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -694,16 +708,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -757,8 +761,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CyclicBarrierDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        <state relative-caret-position="137">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="1196" column="11" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="395" column="16" selection-start-line="395" selection-start-column="16" selection-end-line="395" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+          <folding>
+            <element signature="e#2940#2941#0" expanded="true" />
+            <element signature="e#2990#2991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/LockSupportDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
