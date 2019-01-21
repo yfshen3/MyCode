@@ -30,17 +30,14 @@ public class ConditionDemo implements Runnable {
         t.start();
         Thread.sleep(2000);
         // 通知线程t继续执行
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    lock.lock();
-                    System.out.println(Thread.currentThread().getName());
-                    condition.signal();
-                } finally {
-                    lock.unlock();
-                }
-            }
-        }).start();
+        new Thread(() -> {
+                    try {
+                        lock.lock();
+                        System.out.println(Thread.currentThread().getName());
+                        condition.signal();
+                    } finally {
+                        lock.unlock();
+                    }
+                }).start();
     }
 }

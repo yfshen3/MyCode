@@ -7,12 +7,11 @@ package jdk.lambda;
 public class Demo1 {
     public static void main(String[] args) {
         final String SALUATION = "hello! ";
-        GreetingService greetingService =
-                message -> SALUATION + message;
+        GreetingService greetingService = message -> SALUATION + message;
         System.out.println(greetingService.sayMessage("shenyifan"));
     }
-    interface GreetingService {
 
+    interface GreetingService {
         String sayMessage(String message);
     }
 }

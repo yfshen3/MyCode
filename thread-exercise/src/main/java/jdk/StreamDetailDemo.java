@@ -23,7 +23,16 @@ public class StreamDetailDemo {
     }
 
     public static void main(String[] args) {
-        flatMapString();
+//                flatMapString();
+//                List<String> names = new ArrayList<>();
+//                list.stream().forEach(i -> names.add(i.getName()));
+//        System.out.println(names.size());
+//        names.stream().forEach(System.out::println);
+
+        Thread t1 = new Thread(() -> {
+            System.out.println(Thread.currentThread().getName());
+        });
+        t1.start();
     }
 
     /**
