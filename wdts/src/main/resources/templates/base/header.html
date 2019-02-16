@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<div class="sidebar">
+    <a th:href="@{/}" href="index.html" class="logo">
+        <img th:src="@{/assets/images/logo.png}" src="../assets/images/logo.png">
+        <img th:src="@{/assets/images/logo-small.png}" src="../assets/images/logo-small.png">
+    </a>
+    <div class="user-info">
+        <img id="icon">
+        <span class="name" sec:authentication="name"></span>
+        <div class="dropdown" id="roles">
+            <a href="javascript:void(0);" class="role" data-toggle="dropdown" id="nowRole"></a>
+        </div>
+    </div>
+    <ul>
+        <li th:class="${HtmlTitle=='答卷管理'}?'active'">
+            <a th:href="@{/survey/surveyList}"><i class="fa fa-user"></i><span>答卷管理</span></a>
+        </li>
+        <li th:class="${HtmlTitle=='账户设置'}?'active'">
+            <a th:href="@{/account/accountSetting}"><i class="fa fa-user"></i><span>账户设置</span></a>
+        </li>
+    </ul>
+    <script>
+        var _context_path = $("meta[name='_context_path']").attr("content");
+        var nowRole = "";
+        $(document).ready(function () {
+            $.ajax({
+                url: "/getLoginUser",
+                method: 'post',
+                async: false,
+                success: function (result) {
+                    if (result.code == 200) {
+                        nowRole = result.data;
+                        $("#nowRole").append("<i class='fa fa-dot-circle-o'></i>" + nowRole);
+                        if (nowRole == '系统管理员')
+                            $("#icon").attr("src", _context_path + "/assets/images/icon-admin.png");
+                    }
+                }
+            });
+            var content = "";
+            var names = [];
+            $.ajax({
+                url: "/findRoleName",
+                method: 'post',
+                async: false,
+                success: function (result) {
+                    if (result.code == 200) {
+                        var roles = result.data;
+                        $(roles).each(function (i) {
+                            names.push(roles[i].role.name);
+                        })
+                    }
+                }
+            });
+            for (var i = 0; i < names.length; i++) {
+                if (nowRole != names[i]) {
+                    content = content + "<a onclick='changeRole($(this).html())'>" + names[i] + "</a>"
+                }
+            }
+            if (names.length > 1) {
+                $("#nowRole").append("<small>[切换]</small>");
+                $("#roles").append("<div class='dropdown-menu change-role'>" + content + "</div>");
+            }
+            $("form").validationEngine({
+                autoHidePrompt: true,
+                autoHideDelay: 5000    // 单位毫秒（ms）
+            });
+        });
+
+        function page_back(uri) {
+            if ($.trim(uri) == '') {
+                layer.msg("未指定返回页面,请使用导航跳转");
+                return;
+            }
+            var split = uri.split(";");
+            var param = '';
+            for (var i = 0; i < split.length; i++) {
+                if (i == 0) {
+                    param = "uri=" + encodeURIComponent(split[i]);
+                } else {
+                    param = param + "&uri=" + encodeURIComponent(split[i]);
+                }
+            }
+            window.location.href = _context_path + '/go_history?' + param;
+        }
+
+        function changeRole(value) {
+
+            $.ajax({
+                url: "/changeRole",
+                data: {"roleName": value},
+                method: 'post',
+                async: false,
+                success: function (result) {
+                    if (result.code == 200) {
+                        location.href = _context_path + "/reload?username=" + result.data.account.name;
+                    }
+                }
+            });
+        }
+    </script>
+</div>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns="http://www.w3.org/1999/html"
+      layout:decorate="~{base/layout}">
+<div layout:fragment="content" class="page-container">
+    <div class="page-header">
+        <a href="javascript:void(0);" class="toggle-sidebar"><i class="fa fa-th-large"></i></a>
+        <div class="page-title">帐户设置</div>
+        <a th:href="@{/logout}" class="sign-out">退出<i class="fa fa-sign-out"></i></a>
+    </div>
+    <div class="page-content">
+        <div class="page-title">
+            <h4>修改密码</h4>
+        </div>
+        <div class="form-horizontal form-bordered form-addedit">
+            <div class="form-group">
+                <label class="col-sm-4 col-md-3 col-lg-3 control-label p-r-0">帐户</label>
+                <div name="userName" class="col-sm-5 col-md-4 col-lg-3 form-control-static"
+                     th:text="${user.account.name}"></div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 col-md-3 col-lg-3 control-label p-r-0">原始密码</label>
+                <div class="col-sm-5 col-md-4 col-lg-3">
+                    <input name="originalPassword" type="password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 col-md-3 col-lg-3 control-label p-r-0">新密码</label>
+                <div class="col-sm-5 col-md-4 col-lg-3">
+                    <input onblur="check()" name="newPassword" type="password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 col-md-3 col-lg-3 control-label p-r-0">确认新密码</label>
+                <div class="col-sm-5 col-md-4 col-lg-3">
+                    <input name="rePassword" type="password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-5 col-md-4 col-lg-3 col-sm-offset-4 col-md-offset-3 col-lg-offset-3">
+                    <a onclick="save()" class="btn btn-success"><i class="fa fa-save"></i> 保存</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer">版权所有 © 2017 </div>
+    <script>
+        function save() {
+            var originalPassword = $("[name='originalPassword']").val();
+            var newPassword = $("[name='newPassword']").val();
+            var rePassword = $("[name='rePassword']").val();
+            if (originalPassword == '') {
+                layer.msg("原密码不能为空！");
+                return;
+            }
+            if (check()) {
+                return;
+            }
+            if (newPassword != rePassword) {
+                layer.msg("两次输入密码不一致！");
+                return;
+            }
+            $.ajax({
+                url: "/account/updatePassword",
+                data: {"originalPassword": originalPassword, "newPassword": newPassword},
+                dataType: 'json',
+                method: 'post',
+                async: false,
+                success: function (result) {
+                    if (result.code == 200) {
+                        layer.msg("保存成功！");
+                    } else {
+                        layer.msg(result.message);
+                    }
+                }
+            });
+        }
+        function check() {
+            var reg = /^(\w){6,20}$/;
+            var newPassword = $("[name='newPassword']").val();
+            if (!reg.test(newPassword)) {
+                layer.msg("密码为6-20位字母或数字");
+                return true;
+            } else {
+                return false;
+            }
+        }
+    </script>
+</div>
+</html>

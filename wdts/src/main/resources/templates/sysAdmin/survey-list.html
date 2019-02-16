@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{base/layout}">
+<div layout:fragment="content" class="page-container">
+    <div class="page-header">
+        <a href="javascript:void(0);" class="toggle-sidebar"><i class="fa fa-th-large"></i></a>
+        <div class="page-title">答卷列表</div>
+        <a th:href="@{/logout}" href="../login.html" class="sign-out">退出<i class="fa fa-sign-out"></i></a>
+    </div>
+    <div class="page-content">
+        <div class="c-tabs">
+            <ul>
+                <li class="active">
+                    <a href="javascript:void(0);">答卷列表</a>
+                </li>
+            </ul>
+        </div>
+        <div class="list-search">
+            <form th:action="@{/survey/surveyList}" class="form-inline input-line" th:method="post" id="search-form">
+                <input type="hidden" name="page" th:value="${page.number}">
+                <div class="form-group form-group-sm">
+                    <label>姓名</label>
+                    <input type="text" name="name" class="form-control width-150" th:value="${search}?${search.name}">
+                </div>
+                <div class="form-group form-group-sm">
+                    <label>省份</label>
+                    <input type="text" name="province" class="form-control width-150"
+                           th:value="${search}?${search.province}">
+                </div>
+                <div class="form-group form-group-sm">
+                    <label>专业名</label>
+                    <input type="text" name="wantMajor" class="form-control width-150"
+                           th:value="${search}?${search.wantMajor}">
+                </div>
+                <div class="form-group form-group-sm">
+                    <label>提交时间</label>
+                    <input type="text" name="submitStartDate" class="form-control text-center width-80 datepicker"
+                           th:value="${#calendars.format(search.submitStartDate,'yyyy-MM-dd')}">
+                    -
+                    <input type="text" name="submitEndDate" class="form-control text-center width-80 datepicker"
+                           th:value="${#calendars.format(search.submitEndDate,'yyyy-MM-dd')}">
+                </div>
+                <div class="form-group form-group-sm">
+                    <input type="submit" value="查询" class="btn btn-primary btn-sm">
+                </div>
+            </form>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-condensed table-hover table-nowrap table-middle">
+                <thead>
+                <tr>
+                    <th width="25"><input name="parentCheckbox" type="checkbox" onclick="parentChange(this)"></th>
+                    <th>姓名</th>
+                    <th>电话</th>
+                    <th>报考专业</th>
+                    <th>省份</th>
+                    <th>分数</th>
+                    <th>是否是学硕</th>
+                    <th>提交时间</th>
+                    <th width="80"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="survey : ${page.content}" class="list-tr">
+                    <td th:text="${survey.id}" style="display: none"></td>
+                    <td><input name="childCheckbox" type="checkbox"></td>
+                    <td th:text="${survey.name}">朱培铭</td>
+                    <td th:text="${survey.tel}">15927286456</td>
+                    <td th:text="${survey.wantMajorName}">民族传统体育学</td>
+                    <td th:text="${survey.province}">100</td>
+                    <td th:text="${survey.score}">100</td>
+                    <td th:text="${survey.xszsFlag == true}?是:否"></td>
+                    <td th:text="${#dates.format(survey.submitTime, 'yyyy-MM-dd')}">2017-10-21</td>
+                    <td>
+                        <a th:href="@{'/survey/surveyDetail?id='+${survey.id}}" class="btn btn-info btn-xs">查看</a>
+                        <!--<a href="#allot" data-toggle="modal" class="btn btn-warning btn-xs" th:onclick="'javascript:setIdAndDirName(\''+${sku.id}+'\',\''+${sku.dirName}+'\');'">分配</a>-->
+                    </td>
+                </tr>
+                <tr th:if="${#lists.isEmpty(page.content)}">
+                    <td colspan="7">暂无数据</td>
+                    <td></td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div th:insert="~{base/pageable}"></div>
+    </div>
+</div>
+</html>

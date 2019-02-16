@@ -1,0 +1,36 @@
+server:
+  servlet:
+    context-path: /wdts
+  port: 8082
+#  ssl:
+#    key-store: classpath:key.jks
+#    key-store-password: s9977738jw6h7x
+#    keyStoreType: JKS
+#  error:
+#    whitelabel:
+#      enabled: false
+
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+  aop:
+    proxy-target-class: true
+  profiles:
+    active: @spring.profiles.active@
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  cache:
+    type: caffeine
+
+swagger:
+  basepackage: org.lf.admin.api.baseapi.controller.api
+  service:
+    name: api
+    description: api接口项目
+    developer: chaoyonginfo
+
+app:
+  jwt:
+    encryption-key: VdWTaAk0d6HSlDLhLdasdJLJIUCSgJZYN7xoKNx3ObdibM4Sp4YoPRsX5v1CASD231
+

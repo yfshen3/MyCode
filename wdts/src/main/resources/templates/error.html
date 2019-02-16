@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns="http://www.w3.org/1999/html"
+      layout:decorate="~{base/layout}">
+<div layout:fragment="content" class="page-container">
+    <div class="page-header">
+        <a href="javascript:void(0);" class="toggle-sidebar"><i class="fa fa-th-large"></i></a>
+        <div class="page-title">帐户设置</div>
+        <a href="../login.html" class="sign-out">退出<i class="fa fa-sign-out"></i></a>
+    </div>
+    <div class="page-content">
+        <p class="text-center p-t-30">
+            <img th:if="${status}=='404'" th:src="@{/assets/images/404.png}">
+            <img th:if="${status}=='403'" th:src="@{/assets/images/403.png}">
+            <img th:if="${status==null}" th:src="@{/assets/images/500.png}">
+            <img th:if="${status}=='500'" th:src="@{/assets/images/500.png}">
+        </p>
+    </div>
+    <div class="page-footer">版权所有 © 2017 </div>
+</div>
+</html>
