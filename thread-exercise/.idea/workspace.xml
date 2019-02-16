@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e8f11b-8080-4a77-83da-8a14674e4e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/design_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/JavaVideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/PythonVideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/VideoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/VideoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../democode/target/" />
+    <ignored path="$PROJECT_DIR$/../design_pattern/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,46 +82,56 @@
     <session id="-1524333344">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.265" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="60" />
-          <entry key="xml" value="3" />
+          <entry key="Test" value="1" />
+          <entry key="abstractfactory" value="1" />
+          <entry key="factory" value="1" />
+          <entry key="java" value="85" />
+          <entry key="simplefactory" value="2" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="60" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="85" />
+          <entry key="UML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="5891" />
+          <entry key="java" value="6720" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5891" />
+          <entry key="JAVA" value="6720" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -105,121 +140,193 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Video.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="116">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ReadWriteLockDemo.java">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Article.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/CourseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CountDownLatchDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jdk/Java8Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/pool/ExtThreadPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jdk/StreamDetailDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jdk/StreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2001">
-              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Demo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <entry file="uml://JAVA/com.syf.design.pattern.abstractfactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.syf.design.pattern.abstractfactory</OriginalElement>
+              <nodes>
+                <node x="71.75" y="0.0">com.syf.design.pattern.abstractfactory.CourseFactory</node>
+                <node x="144.0" y="126.0">com.syf.design.pattern.abstractfactory.PythonFactory</node>
+                <node x="84.0" y="448.0">com.syf.design.pattern.abstractfactory.Article</node>
+                <node x="168.0" y="551.0">com.syf.design.pattern.abstractfactory.PythonArticle</node>
+                <node x="0.0" y="126.0">com.syf.design.pattern.abstractfactory.JavaFactory</node>
+                <node x="84.0" y="247.0">com.syf.design.pattern.abstractfactory.Video</node>
+                <node x="168.0" y="350.0">com.syf.design.pattern.abstractfactory.JavaVideo</node>
+                <node x="0.0" y="551.0">com.syf.design.pattern.abstractfactory.JavaArticle</node>
+                <node x="361.0" y="448.0">com.syf.design.pattern.abstractfactory.Test</node>
+                <node x="0.0" y="350.0">com.syf.design.pattern.abstractfactory.PythonVideo</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.syf.design.pattern.abstractfactory.PythonVideo" target="com.syf.design.pattern.abstractfactory.Video">
+                  <point x="0.0" y="-26.5" />
+                  <point x="74.0" y="325.0" />
+                  <point x="121.0" y="325.0" />
+                  <point x="-37.0" y="26.5" />
+                </edge>
+                <edge source="com.syf.design.pattern.abstractfactory.JavaVideo" target="com.syf.design.pattern.abstractfactory.Video">
+                  <point x="0.0" y="-26.5" />
+                  <point x="242.0" y="325.0" />
+                  <point x="195.0" y="325.0" />
+                  <point x="37.0" y="26.5" />
+                </edge>
+                <edge source="com.syf.design.pattern.abstractfactory.PythonFactory" target="com.syf.design.pattern.abstractfactory.CourseFactory">
+                  <point x="0.0" y="-38.0" />
+                  <point x="206.5" y="101.0" />
+                  <point x="165.5" y="101.0" />
+                  <point x="31.25" y="38.0" />
+                </edge>
+                <edge source="com.syf.design.pattern.abstractfactory.JavaFactory" target="com.syf.design.pattern.abstractfactory.CourseFactory">
+                  <point x="0.0" y="-38.0" />
+                  <point x="62.0" y="101.0" />
+                  <point x="103.0" y="101.0" />
+                  <point x="-31.25" y="38.0" />
+                </edge>
+                <edge source="com.syf.design.pattern.abstractfactory.PythonArticle" target="com.syf.design.pattern.abstractfactory.Article">
+                  <point x="0.0" y="-26.5" />
+                  <point x="242.0" y="526.0" />
+                  <point x="195.0" y="526.0" />
+                  <point x="37.0" y="26.5" />
+                </edge>
+                <edge source="com.syf.design.pattern.abstractfactory.JavaArticle" target="com.syf.design.pattern.abstractfactory.Article">
+                  <point x="0.0" y="-26.5" />
+                  <point x="74.0" y="526.0" />
+                  <point x="121.0" y="526.0" />
+                  <point x="-37.0" y="26.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="340.0" y="252.0" />
+              <SelectedNodes>
+                <node>com.syf.design.pattern.abstractfactory.CourseFactory</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+                <Category>Properties</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -229,6 +336,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -276,7 +384,6 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockInt.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/SemaphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/ReadWriteLockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/CyclicBarrierDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/LockSupportDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/syf/thread/pool/ExtThreadPool.java" />
@@ -289,6 +396,26 @@
         <option value="$PROJECT_DIR$/src/main/java/lambda/Demo1.java" />
         <option value="$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution3.java" />
         <option value="$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrent/CountDownLatchDemo.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/Video.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/PythonVideo.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/VideoFactory.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/Test.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/VideoFactory.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/JavaVideoFactory.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/PythonVideoFactory.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/Test.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Video.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonVideo.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Article.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaArticle.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonArticle.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaFactory.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonFactory.java" />
+        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Test.java" />
       </list>
     </option>
   </component>
@@ -336,8 +463,8 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="156" />
-    <option name="y" value="18" />
+    <option name="x" value="366" />
+    <option name="y" value="55" />
     <option name="width" value="1612" />
     <option name="height" value="1037" />
   </component>
@@ -348,60 +475,51 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="democode" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="democode" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="democode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="democode" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="democode" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="democode" type="462c0819:PsiDirectoryNode" />
+              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode_test" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548398332944" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550282572805" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="G:/project/wdky" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -410,6 +528,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mygitcode\MyCode\design_pattern\src\main\java\com\syf\design\pattern\factory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -423,52 +546,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution3">
-    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.ConditionDemo" />
+  <component name="RunManager" selected="Application.Test (2)">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.CountDownLatchDemo" />
       <module name="exercise" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExtThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syf.thread.pool.ExtThreadPool" />
-      <module name="exercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syf.thread.pool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_test.Solution" />
-      <module name="democode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_test.Solution2" />
-      <module name="democode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,20 +573,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syf.design.pattern.factory.Test" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syf.design.pattern.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syf.design.pattern.abstractfactory.Test" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syf.design.pattern.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syf.design.pattern.simplefactory.Test" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syf.design.pattern.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ConditionDemo" />
-      <item itemvalue="Application.ExtThreadPool" />
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution3" />
+      <item itemvalue="Application.CountDownLatchDemo" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ConditionDemo" />
-        <item itemvalue="Application.ExtThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +667,13 @@
       <workItem from="1547886287534" duration="719000" />
       <workItem from="1548032940015" duration="6521000" />
       <workItem from="1548290082007" duration="3477000" />
-      <workItem from="1548384573066" duration="2939000" />
+      <workItem from="1548384573066" duration="3929000" />
+      <workItem from="1548483125852" duration="599000" />
+      <workItem from="1548661743478" duration="599000" />
+      <workItem from="1548747802636" duration="630000" />
+      <workItem from="1550106649489" duration="1298000" />
+      <workItem from="1550212329139" duration="5180000" />
+      <workItem from="1550279196882" duration="2376000" />
     </task>
     <task id="LOCAL-00001" summary="代码更新">
       <created>1545897367760</created>
@@ -609,11 +738,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548313141561</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="代码更新">
+      <created>1548398350787</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548398350787</updated>
+    </task>
+    <task id="LOCAL-00011" summary="代码更新">
+      <created>1548398973419</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548398973419</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86688000" />
+    <option name="totallyTimeSpent" value="98360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,7 +771,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -638,14 +781,14 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2849224" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28381374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.56295526" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3280543" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32890365" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32815966" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
@@ -661,7 +804,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17976804" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22873712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -671,14 +814,14 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34027055" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5005203" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28381374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56295526" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3280543" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32890365" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32815966" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
@@ -705,169 +848,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="代码更新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/chapter1/CountExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/AbstractPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="312" column="5" lean-forward="true" selection-start-line="312" selection-start-column="5" selection-end-line="312" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/MoneyDemo.java" />
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="579" column="22" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="640" column="33" selection-start-line="640" selection-start-column="33" selection-end-line="640" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/StreamSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="4419" column="36" selection-start-line="4419" selection-start-column="36" selection-end-line="4419" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/LambdaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ReentrantLockDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="464" column="16" selection-start-line="464" selection-start-column="16" selection-end-line="464" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="95" column="28" lean-forward="true" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="395" column="16" selection-start-line="395" selection-start-column="16" selection-end-line="395" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../democode/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jdk/MapJdk8Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/SemaphoreDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CyclicBarrierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/atomic/AtomicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32944">
-          <caret line="1196" column="29" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ForkJoinTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -939,13 +919,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/pool/ExtThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1189">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -956,36 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jdk/Java8Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/pool/ExtThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,17 +957,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lambda/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" column="54" lean-forward="true" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="870">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1027,13 +982,366 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../democode/src/main/java/leetcode_test/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CountDownLatchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="857">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../democode/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/ConditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.syf.design.pattern.simplefactory.Test">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.syf.design.pattern.simplefactory.Test</OriginalElement>
+          <nodes>
+            <node x="" y="">com.syf.design.pattern.simplefactory.Test</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="36.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.syf.design.pattern.simplefactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.syf.design.pattern.simplefactory</OriginalElement>
+          <nodes>
+            <node x="" y="">com.syf.design.pattern.simplefactory.Video</node>
+            <node x="" y="">com.syf.design.pattern.simplefactory.PythonVideo</node>
+            <node x="" y="">com.syf.design.pattern.simplefactory.VideoFactory</node>
+            <node x="" y="">com.syf.design.pattern.simplefactory.Test</node>
+            <node x="" y="">com.syf.design.pattern.simplefactory.JavaVideo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="132.0" y="135.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/VideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/Video.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/VideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/JavaVideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/PythonVideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.syf.design.pattern.factory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.syf.design.pattern.factory</OriginalElement>
+          <nodes>
+            <node x="" y="">com.syf.design.pattern.factory.VideoFactory</node>
+            <node x="" y="">com.syf.design.pattern.factory.Test</node>
+            <node x="" y="">com.syf.design.pattern.factory.Video</node>
+            <node x="" y="">com.syf.design.pattern.factory.JavaVideoFactory</node>
+            <node x="" y="">com.syf.design.pattern.factory.PythonVideoFactory</node>
+            <node x="" y="">com.syf.design.pattern.factory.JavaVideo</node>
+            <node x="" y="">com.syf.design.pattern.factory.PythonVideo</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="515.0" y="412.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.syf.design.pattern.abstractfactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.syf.design.pattern.abstractfactory</OriginalElement>
+          <nodes>
+            <node x="71.75" y="0.0">com.syf.design.pattern.abstractfactory.CourseFactory</node>
+            <node x="144.0" y="126.0">com.syf.design.pattern.abstractfactory.PythonFactory</node>
+            <node x="84.0" y="448.0">com.syf.design.pattern.abstractfactory.Article</node>
+            <node x="168.0" y="551.0">com.syf.design.pattern.abstractfactory.PythonArticle</node>
+            <node x="0.0" y="126.0">com.syf.design.pattern.abstractfactory.JavaFactory</node>
+            <node x="84.0" y="247.0">com.syf.design.pattern.abstractfactory.Video</node>
+            <node x="168.0" y="350.0">com.syf.design.pattern.abstractfactory.JavaVideo</node>
+            <node x="0.0" y="551.0">com.syf.design.pattern.abstractfactory.JavaArticle</node>
+            <node x="361.0" y="448.0">com.syf.design.pattern.abstractfactory.Test</node>
+            <node x="0.0" y="350.0">com.syf.design.pattern.abstractfactory.PythonVideo</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.syf.design.pattern.abstractfactory.PythonVideo" target="com.syf.design.pattern.abstractfactory.Video">
+              <point x="0.0" y="-26.5" />
+              <point x="74.0" y="325.0" />
+              <point x="121.0" y="325.0" />
+              <point x="-37.0" y="26.5" />
+            </edge>
+            <edge source="com.syf.design.pattern.abstractfactory.JavaVideo" target="com.syf.design.pattern.abstractfactory.Video">
+              <point x="0.0" y="-26.5" />
+              <point x="242.0" y="325.0" />
+              <point x="195.0" y="325.0" />
+              <point x="37.0" y="26.5" />
+            </edge>
+            <edge source="com.syf.design.pattern.abstractfactory.PythonFactory" target="com.syf.design.pattern.abstractfactory.CourseFactory">
+              <point x="0.0" y="-38.0" />
+              <point x="206.5" y="101.0" />
+              <point x="165.5" y="101.0" />
+              <point x="31.25" y="38.0" />
+            </edge>
+            <edge source="com.syf.design.pattern.abstractfactory.JavaFactory" target="com.syf.design.pattern.abstractfactory.CourseFactory">
+              <point x="0.0" y="-38.0" />
+              <point x="62.0" y="101.0" />
+              <point x="103.0" y="101.0" />
+              <point x="-31.25" y="38.0" />
+            </edge>
+            <edge source="com.syf.design.pattern.abstractfactory.PythonArticle" target="com.syf.design.pattern.abstractfactory.Article">
+              <point x="0.0" y="-26.5" />
+              <point x="242.0" y="526.0" />
+              <point x="195.0" y="526.0" />
+              <point x="37.0" y="26.5" />
+            </edge>
+            <edge source="com.syf.design.pattern.abstractfactory.JavaArticle" target="com.syf.design.pattern.abstractfactory.Article">
+              <point x="0.0" y="-26.5" />
+              <point x="74.0" y="526.0" />
+              <point x="121.0" y="526.0" />
+              <point x="-37.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="340.0" y="252.0" />
+          <SelectedNodes>
+            <node>com.syf.design.pattern.abstractfactory.CourseFactory</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -1111,7 +1419,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>democode</last-edited>
+          <last-edited>design_pattern</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

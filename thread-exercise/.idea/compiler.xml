@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="democode" />
+        <module name="design_pattern" />
         <module name="exercise" />
         <module name="thread-exercise" />
       </profile>
