@@ -2,38 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e8f11b-8080-4a77-83da-8a14674e4e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../design_pattern/design_pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/CourseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaArticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonArticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/JavaVideoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/PythonVideoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/factory/VideoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/simplefactory/VideoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../democode/target/" />
     <ignored path="$PROJECT_DIR$/../design_pattern/target/" />
+    <ignored path="G:/eclipse-workspace/wdts/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,85 +223,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
               <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/com.syf.design.pattern.abstractfactory">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.syf.design.pattern.abstractfactory</OriginalElement>
-              <nodes>
-                <node x="71.75" y="0.0">com.syf.design.pattern.abstractfactory.CourseFactory</node>
-                <node x="144.0" y="126.0">com.syf.design.pattern.abstractfactory.PythonFactory</node>
-                <node x="84.0" y="448.0">com.syf.design.pattern.abstractfactory.Article</node>
-                <node x="168.0" y="551.0">com.syf.design.pattern.abstractfactory.PythonArticle</node>
-                <node x="0.0" y="126.0">com.syf.design.pattern.abstractfactory.JavaFactory</node>
-                <node x="84.0" y="247.0">com.syf.design.pattern.abstractfactory.Video</node>
-                <node x="168.0" y="350.0">com.syf.design.pattern.abstractfactory.JavaVideo</node>
-                <node x="0.0" y="551.0">com.syf.design.pattern.abstractfactory.JavaArticle</node>
-                <node x="361.0" y="448.0">com.syf.design.pattern.abstractfactory.Test</node>
-                <node x="0.0" y="350.0">com.syf.design.pattern.abstractfactory.PythonVideo</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.syf.design.pattern.abstractfactory.PythonVideo" target="com.syf.design.pattern.abstractfactory.Video">
-                  <point x="0.0" y="-26.5" />
-                  <point x="74.0" y="325.0" />
-                  <point x="121.0" y="325.0" />
-                  <point x="-37.0" y="26.5" />
-                </edge>
-                <edge source="com.syf.design.pattern.abstractfactory.JavaVideo" target="com.syf.design.pattern.abstractfactory.Video">
-                  <point x="0.0" y="-26.5" />
-                  <point x="242.0" y="325.0" />
-                  <point x="195.0" y="325.0" />
-                  <point x="37.0" y="26.5" />
-                </edge>
-                <edge source="com.syf.design.pattern.abstractfactory.PythonFactory" target="com.syf.design.pattern.abstractfactory.CourseFactory">
-                  <point x="0.0" y="-38.0" />
-                  <point x="206.5" y="101.0" />
-                  <point x="165.5" y="101.0" />
-                  <point x="31.25" y="38.0" />
-                </edge>
-                <edge source="com.syf.design.pattern.abstractfactory.JavaFactory" target="com.syf.design.pattern.abstractfactory.CourseFactory">
-                  <point x="0.0" y="-38.0" />
-                  <point x="62.0" y="101.0" />
-                  <point x="103.0" y="101.0" />
-                  <point x="-31.25" y="38.0" />
-                </edge>
-                <edge source="com.syf.design.pattern.abstractfactory.PythonArticle" target="com.syf.design.pattern.abstractfactory.Article">
-                  <point x="0.0" y="-26.5" />
-                  <point x="242.0" y="526.0" />
-                  <point x="195.0" y="526.0" />
-                  <point x="37.0" y="26.5" />
-                </edge>
-                <edge source="com.syf.design.pattern.abstractfactory.JavaArticle" target="com.syf.design.pattern.abstractfactory.Article">
-                  <point x="0.0" y="-26.5" />
-                  <point x="74.0" y="526.0" />
-                  <point x="121.0" y="526.0" />
-                  <point x="-37.0" y="26.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="340.0" y="252.0" />
-              <SelectedNodes>
-                <node>com.syf.design.pattern.abstractfactory.CourseFactory</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Inner Classes</Category>
-                <Category>Properties</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -519,9 +420,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550282572805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550283028013" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="G:/project/wdky" />
+    <property name="last_opened_file_path" value="G:/eclipse-workspace/wdts/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -612,12 +513,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BaseApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wdts" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.lf.admin.api.baseapi.BaseApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Solution3" />
       <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Spring Boot.BaseApiApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -673,7 +582,7 @@
       <workItem from="1548747802636" duration="630000" />
       <workItem from="1550106649489" duration="1298000" />
       <workItem from="1550212329139" duration="5180000" />
-      <workItem from="1550279196882" duration="2376000" />
+      <workItem from="1550279196882" duration="2649000" />
     </task>
     <task id="LOCAL-00001" summary="代码更新">
       <created>1545897367760</created>
@@ -752,11 +661,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548398973419</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="代码更新">
+      <created>1550282766042</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550282766043</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98360000" />
+    <option name="totallyTimeSpent" value="98633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,7 +685,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1266,73 +1181,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.syf.design.pattern.abstractfactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>com.syf.design.pattern.abstractfactory</OriginalElement>
           <nodes>
-            <node x="71.75" y="0.0">com.syf.design.pattern.abstractfactory.CourseFactory</node>
-            <node x="144.0" y="126.0">com.syf.design.pattern.abstractfactory.PythonFactory</node>
-            <node x="84.0" y="448.0">com.syf.design.pattern.abstractfactory.Article</node>
-            <node x="168.0" y="551.0">com.syf.design.pattern.abstractfactory.PythonArticle</node>
-            <node x="0.0" y="126.0">com.syf.design.pattern.abstractfactory.JavaFactory</node>
-            <node x="84.0" y="247.0">com.syf.design.pattern.abstractfactory.Video</node>
-            <node x="168.0" y="350.0">com.syf.design.pattern.abstractfactory.JavaVideo</node>
-            <node x="0.0" y="551.0">com.syf.design.pattern.abstractfactory.JavaArticle</node>
-            <node x="361.0" y="448.0">com.syf.design.pattern.abstractfactory.Test</node>
-            <node x="0.0" y="350.0">com.syf.design.pattern.abstractfactory.PythonVideo</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.CourseFactory</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.PythonFactory</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.Article</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.PythonArticle</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.JavaFactory</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.Video</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.JavaVideo</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.JavaArticle</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.Test</node>
+            <node x="" y="">com.syf.design.pattern.abstractfactory.PythonVideo</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="com.syf.design.pattern.abstractfactory.PythonVideo" target="com.syf.design.pattern.abstractfactory.Video">
-              <point x="0.0" y="-26.5" />
-              <point x="74.0" y="325.0" />
-              <point x="121.0" y="325.0" />
-              <point x="-37.0" y="26.5" />
-            </edge>
-            <edge source="com.syf.design.pattern.abstractfactory.JavaVideo" target="com.syf.design.pattern.abstractfactory.Video">
-              <point x="0.0" y="-26.5" />
-              <point x="242.0" y="325.0" />
-              <point x="195.0" y="325.0" />
-              <point x="37.0" y="26.5" />
-            </edge>
-            <edge source="com.syf.design.pattern.abstractfactory.PythonFactory" target="com.syf.design.pattern.abstractfactory.CourseFactory">
-              <point x="0.0" y="-38.0" />
-              <point x="206.5" y="101.0" />
-              <point x="165.5" y="101.0" />
-              <point x="31.25" y="38.0" />
-            </edge>
-            <edge source="com.syf.design.pattern.abstractfactory.JavaFactory" target="com.syf.design.pattern.abstractfactory.CourseFactory">
-              <point x="0.0" y="-38.0" />
-              <point x="62.0" y="101.0" />
-              <point x="103.0" y="101.0" />
-              <point x="-31.25" y="38.0" />
-            </edge>
-            <edge source="com.syf.design.pattern.abstractfactory.PythonArticle" target="com.syf.design.pattern.abstractfactory.Article">
-              <point x="0.0" y="-26.5" />
-              <point x="242.0" y="526.0" />
-              <point x="195.0" y="526.0" />
-              <point x="37.0" y="26.5" />
-            </edge>
-            <edge source="com.syf.design.pattern.abstractfactory.JavaArticle" target="com.syf.design.pattern.abstractfactory.Article">
-              <point x="0.0" y="-26.5" />
-              <point x="74.0" y="526.0" />
-              <point x="121.0" y="526.0" />
-              <point x="-37.0" y="26.5" />
-            </edge>
-          </edges>
+          <edges />
           <settings layout="Hierarchic Group" zoom="1.0" x="340.0" y="252.0" />
-          <SelectedNodes>
-            <node>com.syf.design.pattern.abstractfactory.CourseFactory</node>
-          </SelectedNodes>
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
@@ -1342,6 +1211,13 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
