@@ -47,8 +47,8 @@ class Business {
 //    }
 
     public void sub(int i) {
+        lock.lock();
         try {
-            lock.lock();
             /**
              * 用while比用if好。防止伪唤醒
              */
@@ -79,8 +79,8 @@ class Business {
 //    }
 
     public void main(int i) {
+        lock.lock();
         try {
-            lock.lock();
             while (!flag) {
                 condition.await();
             }
