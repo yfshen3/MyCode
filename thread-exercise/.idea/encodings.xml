@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../rabbitmq-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../wdts" charset="UTF-8" />
     <file url="file://G:/eclipse-workspace/wdts" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
