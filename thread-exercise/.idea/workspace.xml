@@ -2,101 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e8f11b-8080-4a77-83da-8a14674e4e21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../democode/src/main/java/test/AirThreadDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../democode/src/main/java/test/AirThreadDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../democode/src/main/java/test/AirThreadDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../democode/src/main/java/test/NewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/ack/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/ack/MyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/ack/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/confirm/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/confirm/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/consumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/consumer/MyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/consumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/dlx/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/dlx/MyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/dlx/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/exchange/direct/Consumer4DirectExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/exchange/direct/Producer4DirectExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/exchange/fanout/Consumer4FanoutExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/exchange/fanout/Producer4FanoutExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/exchange/topic/Consumer4TopicExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/exchange/topic/Producer4TopicExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/limit/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/limit/MyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/limit/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/message/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/message/Procuder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/returnlistener/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/api/returnlistener/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/quickstart/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/java/com/bfxy/rabbitmq/quickstart/Procuder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/src/test/java/com/bfxy/rabbitmq/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/adapter/MessageDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/convert/ConverterBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/convert/ImageMessageConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/convert/PDFMessageConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/convert/TextMessageConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/entity/Packaged.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/test/java/com/bfxy/spring/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/src/main/java/com/bfxy/springboot/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/src/main/java/com/bfxy/springboot/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/src/main/java/com/bfxy/springboot/conusmer/RabbitReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/src/main/java/com/bfxy/springboot/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/src/test/java/com/bfxy/springboot/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/java/com/bfxy/springboot/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/java/com/bfxy/springboot/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/java/com/bfxy/springboot/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/java/com/bfxy/springboot/producer/RabbitSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/test/java/com/bfxy/springboot/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/src/main/java/com/bfxy/rabbitmq/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/src/main/java/com/bfxy/rabbitmq/stream/Barista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/src/main/java/com/bfxy/rabbitmq/stream/RabbitmqReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/src/test/java/com/bfxy/rabbitmq/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/src/main/java/com/bfxy/rabbitmq/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/src/main/java/com/bfxy/rabbitmq/stream/Barista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/src/main/java/com/bfxy/rabbitmq/stream/RabbitmqSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/src/test/java/com/bfxy/rabbitmq/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wdts/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../wdts/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -203,8 +110,9 @@
           <entry key="class" value="8" />
           <entry key="factory" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="220" />
-          <entry key="properties" value="1" />
+          <entry key="java" value="225" />
+          <entry key="mvnw" value="1" />
+          <entry key="properties" value="2" />
           <entry key="simplefactory" value="2" />
           <entry key="xml" value="9" />
           <entry key="yml" value="2" />
@@ -214,8 +122,9 @@
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="220" />
-          <entry key="Properties" value="1" />
+          <entry key="JAVA" value="225" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="2" />
           <entry key="UML" value="5" />
           <entry key="XML" value="9" />
           <entry key="YAML" value="2" />
@@ -225,7 +134,7 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="java" value="21738" />
-          <entry key="properties" value="18" />
+          <entry key="properties" value="27" />
           <entry key="txt" value="4" />
           <entry key="xml" value="76" />
           <entry key="yml" value="12" />
@@ -235,7 +144,7 @@
         <counts>
           <entry key="JAVA" value="21738" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Properties" value="18" />
+          <entry key="Properties" value="27" />
           <entry key="XML" value="76" />
           <entry key="YAML" value="12" />
         </counts>
@@ -244,7 +153,29 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/java/com/bfxy/springboot/producer/RabbitSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-464">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -281,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaArticle.java" />
         <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/PythonArticle.java" />
         <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/CourseFactory.java" />
         <option value="$PROJECT_DIR$/../design_pattern/src/main/java/com/syf/design/pattern/abstractfactory/JavaFactory.java" />
@@ -332,6 +262,7 @@
         <option value="$PROJECT_DIR$/../rabbitmq-api/src/test/java/com/syf/rabbitmq/ApplicationTest.java" />
         <option value="$PROJECT_DIR$/../rabbitmq-api/src/main/java/com/syf/rabbitmq/config/MessageDelegate.java" />
         <option value="$PROJECT_DIR$/../rabbitmq-api/src/main/java/com/syf/rabbitmq/config/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -374,8 +305,8 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="244" />
-    <option name="y" value="31" />
+    <option name="x" value="408" />
+    <option name="y" value="56" />
     <option name="width" value="1428" />
     <option name="height" value="1018" />
   </component>
@@ -393,100 +324,40 @@
           <expand>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-springboot-producer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wdts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wdts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wdts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wdts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wdts" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="baseapi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -498,7 +369,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551421717168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551424155050" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -700,7 +571,7 @@
       <workItem from="1550796715743" duration="1395000" />
       <workItem from="1550883728778" duration="738000" />
       <workItem from="1551056563615" duration="9758000" />
-      <workItem from="1551142558638" duration="16926000" />
+      <workItem from="1551142558638" duration="18550000" />
     </task>
     <task id="LOCAL-00001" summary="代码更新">
       <created>1545897367760</created>
@@ -828,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550715035652</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="代码更新">
+      <created>1551421786040</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551421786040</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -837,9 +715,9 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202379000" />
+    <option name="totallyTimeSpent" value="204003000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -849,9 +727,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="244" y="31" width="1428" height="1018" extended-state="0" />
+    <frame x="408" y="56" width="1428" height="1018" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2880117" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20467836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -867,7 +746,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5068182" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32705098" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32616082" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3272933" />
@@ -890,7 +769,7 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3298969" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19736843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20467836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -899,22 +778,23 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.78369194" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5068182" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32705098" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292683" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3272933" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="JRebel Executor" order="12" />
-      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" weight="0.31561822" />
-      <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.3295583" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.78369194" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5068182" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32616082" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3272933" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" weight="0.31561822" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1011,55 +891,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CyclicBarrierDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/thread/ExchangerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="421" column="16" selection-start-line="421" selection-start-column="16" selection-end-line="421" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/thread/blockingqueue/BlockingQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/syf/thread/thread/SemaphoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../democode/src/main/java/test/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="42" column="77" lean-forward="true" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://G:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/com/sun/xml/internal/ws/api/message/Packet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1914" />
@@ -1411,6 +1242,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/convert/ConverterBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/convert/TextMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/src/main/java/com/bfxy/spring/convert/ImageMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/java/com/bfxy/springboot/MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/src/main/java/com/bfxy/springboot/producer/RabbitSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-464">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
