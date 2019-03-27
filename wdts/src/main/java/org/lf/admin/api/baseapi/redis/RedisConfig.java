@@ -8,11 +8,10 @@ import org.springframework.stereotype.Component;
 public class RedisConfig {
     private String host;
     private int port;
-    private int timeout;//秒
-//    private String password;
+    private int timeout;
     private int poolMaxTotal;
     private int poolMaxIdle;
-    private int poolMaxWait;//秒
+    private int poolMaxWait;
     public String getHost() {
         return host;
     }
@@ -31,12 +30,6 @@ public class RedisConfig {
     public void setTimeout(int timeout) {
         this.timeout = timeout;
     }
-//    public String getPassword() {
-//        return password;
-//    }
-//    public void setPassword(String password) {
-//        this.password = password;
-//    }
     public int getPoolMaxTotal() {
         return poolMaxTotal;
     }
