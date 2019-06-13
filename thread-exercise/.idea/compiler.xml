@@ -6,16 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="01_MySpring" />
-        <module name="democode" />
         <module name="design_pattern" />
         <module name="exercise" />
-        <module name="rabbitmq-api" />
-        <module name="rabbitmq-spring" />
-        <module name="rabbitmq-springboot-consumer" />
-        <module name="rabbitmq-springboot-producer" />
-        <module name="rabbitmq-springcloudstream-consumer" />
-        <module name="rabbitmq-springcloudstream-producer" />
+        <module name="test_project" />
         <module name="thread-exercise" />
       </profile>
       <profile name="Annotation profile for wdts" enabled="true">
@@ -38,11 +31,20 @@
           <entry name="G:/repository/joda-time/joda-time/2.9/joda-time-2.9.jar" />
           <entry name="G:/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar" />
         </processorPath>
-        <module name="wdts" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="01_MySpring" target="1.5" />
       <module name="01_MySpring (1)" target="1.5" />
+      <module name="01_Spring" target="1.5" />
+      <module name="democode" target="1.6" />
+      <module name="rabbitmq-api" target="1.8" />
+      <module name="rabbitmq-spring" target="1.8" />
+      <module name="rabbitmq-springboot-consumer" target="1.8" />
+      <module name="rabbitmq-springboot-producer" target="1.8" />
+      <module name="rabbitmq-springcloudstream-consumer" target="1.8" />
+      <module name="rabbitmq-springcloudstream-producer" target="1.8" />
+      <module name="wdts" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

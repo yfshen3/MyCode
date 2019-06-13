@@ -11,14 +11,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../democode/pom.xml" />
         <option value="$PROJECT_DIR$/../design_pattern/pom.xml" />
-        <option value="$PROJECT_DIR$/../wdts/pom.xml" />
-        <option value="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-api/pom.xml" />
-        <option value="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-spring/pom.xml" />
-        <option value="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springboot-producer/pom.xml" />
-        <option value="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/../rabbitmq-code/rabbitmq-springcloudstream-producer/pom.xml" />
-        <option value="E:/廖雪峰课程代码/spring_project/06_MySpring_bean_DI/pom.xml" />
+        <option value="$PROJECT_DIR$/../test_project/pom.xml" />
       </list>
     </option>
   </component>
