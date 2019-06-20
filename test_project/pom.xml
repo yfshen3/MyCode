@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.syf.project</groupId>
-    <artifactId>test_project</artifactId>
+    <groupId>test_project</groupId>
+    <artifactId>com.syf.project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
@@ -43,6 +43,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.22</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
         </dependency>
 
     </dependencies>
