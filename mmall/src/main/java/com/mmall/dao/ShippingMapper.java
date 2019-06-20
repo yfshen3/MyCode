@@ -1,7 +1,9 @@
 package com.mmall.dao;
 
 import com.mmall.model.po.Shipping;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface ShippingMapper {
     int deleteByPrimaryKey(Integer id);
 

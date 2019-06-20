@@ -2,8 +2,6 @@ package com.mmall.model.po;
 
 import lombok.Data;
 
-import java.util.Date;
-
 @Data
 public class Cart {
     private Integer id;
@@ -16,8 +14,8 @@ public class Cart {
 
     private Integer checked;
 
-    private Date createTime;
+    private Long createTime;
 
-    private Date updateTime;
+    private Long updateTime;
 
 }

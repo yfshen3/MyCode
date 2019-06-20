@@ -1,7 +1,9 @@
 package com.mmall.dao;
 
 import com.mmall.model.po.Category;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface CategoryMapper {
     int deleteByPrimaryKey(Integer id);
 

@@ -2,20 +2,18 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mmall.dao.ProductMapper">
   <resultMap id="BaseResultMap" type="com.mmall.model.po.Product">
-    <constructor>
-      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
-      <arg column="category_id" javaType="java.lang.Integer" jdbcType="INTEGER" />
-      <arg column="name" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="subtitle" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="main_image" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="sub_images" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="detail" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="price" javaType="java.math.BigDecimal" jdbcType="DECIMAL" />
-      <arg column="stock" javaType="java.lang.Integer" jdbcType="INTEGER" />
-      <arg column="status" javaType="java.lang.Integer" jdbcType="INTEGER" />
-      <arg column="create_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
-      <arg column="update_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
-    </constructor>
+      <id column="id" javaType="java.lang.Integer" jdbcType="INTEGER" property="id"/>
+      <result column="category_id" javaType="java.lang.Integer" jdbcType="INTEGER" property="categoryId"/>
+      <result column="name" javaType="java.lang.String" jdbcType="VARCHAR" property="name"/>
+      <result column="subtitle" javaType="java.lang.String" jdbcType="VARCHAR" property="subtitle"/>
+      <result column="main_image" javaType="java.lang.String" jdbcType="VARCHAR" property="mainImage"/>
+      <result column="sub_images" javaType="java.lang.String" jdbcType="VARCHAR" property="subImages"/>
+      <result column="detail" javaType="java.lang.String" jdbcType="VARCHAR" property="detail"/>
+      <result column="price" javaType="java.math.BigDecimal" jdbcType="DECIMAL" property="price"/>
+      <result column="stock" javaType="java.lang.Integer" jdbcType="INTEGER" property="stock"/>
+      <result column="status" javaType="java.lang.Integer" jdbcType="INTEGER" property="status"/>
+      <result column="create_time" javaType="java.lang.Long" jdbcType="BIGINT" property="createTime"/>
+      <result column="update_time" javaType="java.lang.Long" jdbcType="BIGINT" property="updateTime"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, category_id, name, subtitle, main_image, sub_images, detail, price, stock, status, 
@@ -40,7 +38,7 @@
     values (#{id,jdbcType=INTEGER}, #{categoryId,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, 
       #{subtitle,jdbcType=VARCHAR}, #{mainImage,jdbcType=VARCHAR}, #{subImages,jdbcType=VARCHAR}, 
       #{detail,jdbcType=VARCHAR}, #{price,jdbcType=DECIMAL}, #{stock,jdbcType=INTEGER}, 
-      #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      #{status,jdbcType=INTEGER}, #{createTime,jdbcType=BIGINT}, #{updateTime,jdbcType=BIGINT}
       )
   </insert>
   <insert id="insertSelective" parameterType="com.mmall.model.po.Product">
@@ -115,10 +113,10 @@
         #{status,jdbcType=INTEGER},
       </if>
       <if test="createTime != null">
-        #{createTime,jdbcType=TIMESTAMP},
+        #{createTime,jdbcType=BIGINT},
       </if>
       <if test="updateTime != null">
-        #{updateTime,jdbcType=TIMESTAMP},
+        #{updateTime,jdbcType=BIGINT},
       </if>
     </trim>
   </insert>
@@ -153,10 +151,10 @@
         status = #{status,jdbcType=INTEGER},
       </if>
       <if test="createTime != null">
-        create_time = #{createTime,jdbcType=TIMESTAMP},
+        create_time = #{createTime,jdbcType=BIGINT},
       </if>
       <if test="updateTime != null">
-        update_time = #{updateTime,jdbcType=TIMESTAMP},
+        update_time = #{updateTime,jdbcType=BIGINT},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -172,8 +170,8 @@
       price = #{price,jdbcType=DECIMAL},
       stock = #{stock,jdbcType=INTEGER},
       status = #{status,jdbcType=INTEGER},
-      create_time = #{createTime,jdbcType=TIMESTAMP},
-      update_time = #{updateTime,jdbcType=TIMESTAMP}
+      create_time = #{createTime,jdbcType=BIGINT},
+      update_time = #{updateTime,jdbcType=BIGINT}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

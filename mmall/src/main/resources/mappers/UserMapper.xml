@@ -2,18 +2,16 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mmall.dao.UserMapper">
   <resultMap id="BaseResultMap" type="com.mmall.model.po.User">
-    <constructor>
-      <idArg column="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
-      <arg column="username" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="password" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="email" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="phone" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="question" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="answer" javaType="java.lang.String" jdbcType="VARCHAR" />
-      <arg column="role" javaType="java.lang.Integer" jdbcType="INTEGER" />
-      <arg column="create_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
-      <arg column="update_time" javaType="java.util.Date" jdbcType="TIMESTAMP" />
-    </constructor>
+      <id column="id" javaType="java.lang.Integer" jdbcType="INTEGER" property="id"/>
+      <result column="username" javaType="java.lang.String" jdbcType="VARCHAR" property="username"/>
+      <result column="password" javaType="java.lang.String" jdbcType="VARCHAR" property="password"/>
+      <result column="email" javaType="java.lang.String" jdbcType="VARCHAR" property="email"/>
+      <result column="phone" javaType="java.lang.String" jdbcType="VARCHAR" property="phone"/>
+      <result column="question" javaType="java.lang.String" jdbcType="VARCHAR" property="question"/>
+      <result column="answer" javaType="java.lang.String" jdbcType="VARCHAR" property="answer"/>
+      <result column="role" javaType="java.lang.Integer" jdbcType="INTEGER" property="role"/>
+      <result column="create_time" javaType="java.lang.Long" jdbcType="BIGINT" property="createTime"/>
+      <result column="update_time" javaType="java.lang.Long" jdbcType="BIGINT" property="updateTime"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, username, password, email, phone, question, answer, role, create_time, update_time
@@ -35,8 +33,8 @@
       update_time)
     values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
       #{email,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{question,jdbcType=VARCHAR}, 
-      #{answer,jdbcType=VARCHAR}, #{role,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, 
-      #{updateTime,jdbcType=TIMESTAMP})
+      #{answer,jdbcType=VARCHAR}, #{role,jdbcType=INTEGER}, #{createTime,jdbcType=BIGINT}, 
+      #{updateTime,jdbcType=BIGINT})
   </insert>
   <insert id="insertSelective" parameterType="com.mmall.model.po.User">
     insert into mmall_user
@@ -98,10 +96,10 @@
         #{role,jdbcType=INTEGER},
       </if>
       <if test="createTime != null">
-        #{createTime,jdbcType=TIMESTAMP},
+        #{createTime,jdbcType=BIGINT},
       </if>
       <if test="updateTime != null">
-        #{updateTime,jdbcType=TIMESTAMP},
+        #{updateTime,jdbcType=BIGINT},
       </if>
     </trim>
   </insert>
@@ -130,10 +128,10 @@
         role = #{role,jdbcType=INTEGER},
       </if>
       <if test="createTime != null">
-        create_time = #{createTime,jdbcType=TIMESTAMP},
+        create_time = #{createTime,jdbcType=BIGINT},
       </if>
       <if test="updateTime != null">
-        update_time = #{updateTime,jdbcType=TIMESTAMP},
+        update_time = #{updateTime,jdbcType=BIGINT},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -147,8 +145,8 @@
       question = #{question,jdbcType=VARCHAR},
       answer = #{answer,jdbcType=VARCHAR},
       role = #{role,jdbcType=INTEGER},
-      create_time = #{createTime,jdbcType=TIMESTAMP},
-      update_time = #{updateTime,jdbcType=TIMESTAMP}
+      create_time = #{createTime,jdbcType=BIGINT},
+      update_time = #{updateTime,jdbcType=BIGINT}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>

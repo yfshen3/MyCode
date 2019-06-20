@@ -3,7 +3,6 @@ package com.mmall.model.po;
 import lombok.Data;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
 @Data
 public class Order {
@@ -23,16 +22,16 @@ public class Order {
 
     private Integer status;
 
-    private Date paymentTime;
+    private Long paymentTime;
 
-    private Date sendTime;
+    private Long sendTime;
 
-    private Date endTime;
+    private Long endTime;
 
-    private Date closeTime;
+    private Long closeTime;
 
-    private Date createTime;
+    private Long createTime;
 
-    private Date updateTime;
+    private Long upDateTime;
 
 }

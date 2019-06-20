@@ -3,7 +3,6 @@ package com.mmall.model.po;
 import lombok.Data;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
 @Data
 public class OrderItem {
@@ -25,8 +24,8 @@ public class OrderItem {
 
     private BigDecimal totalPrice;
 
-    private Date createTime;
+    private Long createTime;
 
-    private Date updateTime;
+    private Long updateTime;
 
 }

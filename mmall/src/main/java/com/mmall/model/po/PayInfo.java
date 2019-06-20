@@ -2,8 +2,6 @@ package com.mmall.model.po;
 
 import lombok.Data;
 
-import java.util.Date;
-
 @Data
 public class PayInfo {
     private Integer id;
@@ -18,8 +16,8 @@ public class PayInfo {
 
     private String platformStatus;
 
-    private Date createTime;
+    private Long createTime;
 
-    private Date updateTime;
+    private Long updateTime;
 
 }

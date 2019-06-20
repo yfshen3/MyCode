@@ -2,8 +2,6 @@ package com.mmall.model.po;
 
 import lombok.Data;
 
-import java.util.Date;
-
 @Data
 public class Shipping {
     private Integer id;
@@ -26,8 +24,8 @@ public class Shipping {
 
     private String receiverZip;
 
-    private Date createTime;
+    private Long createTime;
 
-    private Date updateTime;
+    private Long updateTime;
 
 }

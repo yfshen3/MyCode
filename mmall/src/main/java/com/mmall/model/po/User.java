@@ -2,8 +2,6 @@ package com.mmall.model.po;
 
 import lombok.Data;
 
-import java.util.Date;
-
 @Data
 public class User {
     private Integer id;
@@ -22,8 +20,8 @@ public class User {
 
     private Integer role;
 
-    private Date createTime;
+    private Long createTime;
 
-    private Date updateTime;
+    private Long updateTime;
 
 }

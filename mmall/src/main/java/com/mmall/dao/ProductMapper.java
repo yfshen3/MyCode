@@ -1,7 +1,9 @@
 package com.mmall.dao;
 
 import com.mmall.model.po.Product;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface ProductMapper {
     int deleteByPrimaryKey(Integer id);
 

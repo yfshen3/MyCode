@@ -2,8 +2,6 @@ package com.mmall.model.po;
 
 import lombok.Data;
 
-import java.util.Date;
-
 @Data
 public class Category {
     private Integer id;
@@ -16,8 +14,8 @@ public class Category {
 
     private Integer sortOrder;
 
-    private Date createTime;
+    private Long createTime;
 
-    private Date updateTime;
+    private Long updateTime;
 
 }
