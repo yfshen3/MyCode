@@ -2,6 +2,7 @@ package com.mmall.common;
 
 import lombok.Getter;
 import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
 
 import java.io.Serializable;
 
@@ -9,6 +10,8 @@ import java.io.Serializable;
  * @author yfshen
  */
 @Getter
+// 保证序列化json的时候，key也会消失
+@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class ServerResponse<T> implements Serializable {
 
     private int code;
@@ -37,6 +40,7 @@ public class ServerResponse<T> implements Serializable {
         this.msg = msg;
     }
 
+    // 使之不在json序列化之中
     @JsonIgnore
     public boolean isSuccess() {
         return this.code == ResponseCode.SUCCESS.getCode();
