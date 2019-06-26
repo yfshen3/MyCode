@@ -16,8 +16,8 @@ public class PayInfo {
 
     private String platformStatus;
 
-    private Long createTime;
+    private Integer createTime;
 
-    private Long updateTime;
+    private Integer updateTime;
 
 }

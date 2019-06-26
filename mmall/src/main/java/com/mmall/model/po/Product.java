@@ -26,8 +26,8 @@ public class Product {
 
     private Integer status;
 
-    private Long createTime;
+    private Integer createTime;
 
-    private Long updateTime;
+    private Integer updateTime;
 
 }

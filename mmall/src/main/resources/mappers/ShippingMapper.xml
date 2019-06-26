@@ -12,8 +12,8 @@
       <result column="receiver_district" javaType="java.lang.String" jdbcType="VARCHAR" property="receiverDistrict"/>
       <result column="receiver_address" javaType="java.lang.String" jdbcType="VARCHAR" property="receiverAddress"/>
       <result column="receiver_zip" javaType="java.lang.String" jdbcType="VARCHAR" property="receiverZip"/>
-      <result column="create_time" javaType="java.lang.Long" jdbcType="BIGINT" property="createTime"/>
-      <result column="update_time" javaType="java.lang.Long" jdbcType="BIGINT" property="updateTime"/>
+      <result column="create_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="createTime"/>
+      <result column="update_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="updateTime"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, user_id, receiver_name, receiver_phone, receiver_mobile, receiver_province, receiver_city, 

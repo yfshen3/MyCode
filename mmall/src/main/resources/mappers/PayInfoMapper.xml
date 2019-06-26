@@ -8,8 +8,8 @@
       <result column="pay_platform" javaType="java.lang.Integer" jdbcType="INTEGER" property="payPlatform"/>
       <result column="platform_number" javaType="java.lang.String" jdbcType="VARCHAR" property="platformNumber"/>
       <result column="platform_status" javaType="java.lang.String" jdbcType="VARCHAR" property="platformStatus"/>
-      <result column="create_time" javaType="java.lang.Long" jdbcType="BIGINT" property="createTime"/>
-      <result column="update_time" javaType="java.lang.Long" jdbcType="BIGINT" property="updateTime"/>
+      <result column="create_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="createTime"/>
+      <result column="update_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="updateTime"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, user_id, order_no, pay_platform, platform_number, platform_status, create_time, 

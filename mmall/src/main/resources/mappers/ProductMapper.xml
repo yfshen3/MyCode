@@ -12,8 +12,8 @@
       <result column="price" javaType="java.math.BigDecimal" jdbcType="DECIMAL" property="price"/>
       <result column="stock" javaType="java.lang.Integer" jdbcType="INTEGER" property="stock"/>
       <result column="status" javaType="java.lang.Integer" jdbcType="INTEGER" property="status"/>
-      <result column="create_time" javaType="java.lang.Long" jdbcType="BIGINT" property="createTime"/>
-      <result column="update_time" javaType="java.lang.Long" jdbcType="BIGINT" property="updateTime"/>
+      <result column="create_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="createTime"/>
+      <result column="update_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="updateTime"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, category_id, name, subtitle, main_image, sub_images, detail, price, stock, status, 

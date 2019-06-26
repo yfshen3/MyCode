@@ -10,12 +10,12 @@
       <result column="payment_type" javaType="java.lang.Integer" jdbcType="INTEGER" property="paymentType"/>
       <result column="postage" javaType="java.lang.Integer" jdbcType="INTEGER" property="postage"/>
       <result column="status" javaType="java.lang.Integer" jdbcType="INTEGER" property="status"/>
-      <result column="payment_time" javaType="java.lang.Long" jdbcType="BIGINT" property="paymentTime"/>
-      <result column="send_time" javaType="java.lang.Long" jdbcType="BIGINT" property="sendTime"/>
-      <result column="end_time" javaType="java.lang.Long" jdbcType="BIGINT" property="endTime"/>
-      <result column="close_time" javaType="java.lang.Long" jdbcType="BIGINT" property="closeTime"/>
-      <result column="create_time" javaType="java.lang.Long" jdbcType="BIGINT" property="createTime"/>
-      <result column="update_time" javaType="java.lang.Long" jdbcType="BIGINT" property="upDateTime"/>
+      <result column="payment_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="paymentTime"/>
+      <result column="send_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="sendTime"/>
+      <result column="end_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="endTime"/>
+      <result column="close_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="closeTime"/>
+      <result column="create_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="createTime"/>
+      <result column="update_time" javaType="java.lang.Integer" jdbcType="INTEGER" property="upDateTime"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, order_no, user_id, shipping_id, payment, payment_type, postage, status, payment_time, 

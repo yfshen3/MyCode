@@ -20,7 +20,7 @@ public class UserVO {
 
     private Integer role;
 
-    private Long createTime;
+    private Integer createTime;
 
-    private Long updateTime;
+    private Integer updateTime;
 }

@@ -24,8 +24,8 @@ public class Shipping {
 
     private String receiverZip;
 
-    private Long createTime;
+    private Integer createTime;
 
-    private Long updateTime;
+    private Integer updateTime;
 
 }

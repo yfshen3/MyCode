@@ -36,10 +36,10 @@ public class User {
     private Integer role;
 
     @Column(name = "create_time")
-    private Long createTime;
+    private Integer createTime;
 
     @Column(name = "update_time")
-    private Long updateTime;
+    private Integer updateTime;
 
     public User(UserVO userVO) {
         this.username = userVO.getUsername();

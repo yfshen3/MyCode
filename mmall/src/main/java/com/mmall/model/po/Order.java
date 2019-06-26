@@ -22,16 +22,16 @@ public class Order {
 
     private Integer status;
 
-    private Long paymentTime;
+    private Integer paymentTime;
 
-    private Long sendTime;
+    private Integer sendTime;
 
-    private Long endTime;
+    private Integer endTime;
 
-    private Long closeTime;
+    private Integer closeTime;
 
-    private Long createTime;
+    private Integer createTime;
 
-    private Long upDateTime;
+    private Integer upDateTime;
 
 }

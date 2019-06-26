@@ -14,8 +14,8 @@ public class Cart {
 
     private Integer checked;
 
-    private Long createTime;
+    private Integer createTime;
 
-    private Long updateTime;
+    private Integer updateTime;
 
 }
